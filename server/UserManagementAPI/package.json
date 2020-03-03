@@ -1,0 +1,39 @@
+{
+  "name": "UserManagementAPI",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:server": "webpack --config webpack.config.server.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-joi-validation": "^0.3.0",
+    "express-validation": "^1.0.2",
+    "express-validator": "^5.3.1",
+    "g": "^2.0.1",
+    "http-errors": "~1.6.2",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.6.4",
+    "pdfmake": "^0.1.54",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.5.1",
+    "start-server-webpack-plugin": "^2.2.5",
+    "uuid": "^3.3.2",
+    "webpack": "^4.29.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
