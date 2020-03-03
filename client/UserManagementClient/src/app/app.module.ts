@@ -11,6 +11,7 @@ import { UserCreateComponent } from "./user-create/user-create.component";
 import { UserUpdateComponent } from "./user-update/user-update.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { UserService } from "./user.service";
+import { RoleService } from "./role.service";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { UserService } from "./user.service";
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  providers: [UserService],
+  providers: [UserService, RoleService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
