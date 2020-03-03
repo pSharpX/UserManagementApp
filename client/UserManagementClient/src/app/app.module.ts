@@ -1,9 +1,8 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { HttpClientModule } from "@angular/common/http";
+import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 
-import { MatTableModule } from "@angular/material/table";
-import { MatPaginator } from "@angular/material/paginator";
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -21,8 +20,7 @@ import { UserService } from "./user.service";
     UserUpdateComponent
   ],
   imports: [
-    MatTableModule,
-    //MatPaginator,
+    NgbModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
